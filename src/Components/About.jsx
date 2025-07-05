@@ -3,7 +3,7 @@ import '../Stylesheets/About.css';
 
 function About() {
     return (
-        <section className="about-section">
+        <section id="about" className="about-section">
             <h2>About Me</h2>
             <p>
                 I recently earned my B.S. in Software Development, where I developed a deep interest in crafting web applications

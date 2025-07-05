@@ -12,7 +12,7 @@ function Home() {
     }
 
     return (
-        <section className="hero-section">
+        <section id="hero" className="hero-section">
             <img src={heroImg} alt="Hero Background" className="hero-background" />
             <h1>Edgar Arroyor</h1>
             <h3> Software Developer </h3>
