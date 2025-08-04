@@ -1,6 +1,6 @@
 .hero-section {
-    background-color: aquamarine;
-    padding: 80px;
+    background-color: #000080;
+    padding: 120px 80px 80px 80px;
     margin-bottom: 0;
 }
 
@@ -20,31 +20,44 @@
     font-size: 3rem;
     font-weight: bold;
     margin-top: 20px;
+    color: white;
 }
 
 .hero-section h3 {
     text-align: center;
     font-size: 2rem;
     margin-top: 10px;
+    color: white;
 }
 
 .hero-section p {
     text-align: justify;
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 10px;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 5px;
-    line-height: 1.4;
-    margin-bottom: 20px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    color: white;
 }
 
 .call-to-action {
+    border: none;
+    border-radius: 8px;
+    background-color: #4f8ef7;
+    color: white;
     font-size: 18px;
     margin-top: 20px;
-    padding: 10px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.call-to-action:hover {
+    background-color: #3c75d3;
 }

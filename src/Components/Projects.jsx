@@ -13,6 +13,7 @@ function Projects() {
                     <div className="project-card" key={index}>
                         <h2>{project.title}</h2>
                         <p className="project-description">{project.description}</p>
+                        <br/>
                         <p className="project-tools"><strong>Tools Used:</strong> {project.toolsUsed}</p>
                         <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
                             View Project

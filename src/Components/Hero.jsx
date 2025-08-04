@@ -14,13 +14,13 @@ function Home() {
     return (
         <section id="hero" className="hero-section">
             <img src={heroImg} alt="Hero Background" className="hero-background" />
-            <h1>Edgar Arroyor</h1>
+            <h1>Edgar Arroyo</h1>
             <h3> Software Developer </h3>
             <p>
                 I'm a software developer with a strong foundation in Java, JavaScript, and web technologies. 
                 I focus on writing clear, maintainable code and love turning complex problems into elegant solutions.
             </p>
-            <button className="call-to-action" onClick={() => scrollToProjects}>
+            <button className="call-to-action" onClick={() => scrollToProjects()}>
                 See My Work
             </button>
 

@@ -9,13 +9,17 @@ body {
 }
 
 .navbar {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: hsla(106, 54%, 55%, 0.99);
+    background-color: #000080;
+    width: 100%;
     max-width: 100%;
     z-index: 1000;
+    color: white;
+    border-bottom: 5px solid #FFD700;
 }
 
 .navbar-title {
@@ -31,6 +35,7 @@ body {
 
 .navbar-links li a {
     text-decoration: none;
+    color: white;
     font-size: 24px;
     font-weight: 500;
     transition: color 0.3s ease;

@@ -1,7 +1,7 @@
 .about-section {
     margin-top: 0;
-    background-color: #f0f0f0;
-    padding: 50px;
+    background-color: #F5F5DC;
+    padding: 30px 50px 50px 50px;
 }
 
 .about-section h2 {
@@ -14,8 +14,8 @@
 }
 
 .about-section p {
-    font-size: 28px;
-    line-height: 1.4;
+    font-size: 24px;
+    line-height: 1.2;
     color: #333;
     margin-left: auto;
     margin-right: auto;
