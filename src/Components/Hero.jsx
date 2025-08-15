@@ -20,10 +20,14 @@ function Home() {
                 I'm a software developer with a strong foundation in Java, JavaScript, and web technologies. 
                 I focus on writing clear, maintainable code and love turning complex problems into elegant solutions.
             </p>
-            <button className="call-to-action" onClick={() => scrollToProjects()}>
-                See My Work
-            </button>
-
+            <div className="hero-links">
+                <button className="call-to-action" onClick={() => scrollToProjects()}>
+                    See My Work
+                </button>
+                <a className="call-to-action" href="resume.pdf" target="_blank" rel="noopener noreferrer">
+                    View Resume
+                </a>
+            </div>
         </section>
     )
 }

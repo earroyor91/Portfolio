@@ -17,7 +17,7 @@ function Contact() {
 
     return (
         <section id="contact" className="contact-section">
-            <h2>Contact Me</h2>
+            <h2 className="contact-title">Contact Me</h2>
             <form className="contact-form" onSubmit={sendEmail}>
                 <div className="form-group">
                     <label htmlFor="name">Name:</label>

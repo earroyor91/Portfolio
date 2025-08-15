@@ -9,7 +9,7 @@ const projects = [
         title: "My Portfolio",
         description: "A personal portfolio website showcasing my projects and skills.",
         toolsUsed: "React, Vite, JavaScript",
-        link: "https://github.com/earroyor91/Portfolio"
+        link: "https://earroyor91.github.io/Portfolio/"
     },
     {
         title: "Game Info",

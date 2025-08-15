@@ -1,11 +1,13 @@
 .footer {
-    padding: 40px;
-    background-color: #000080;
+    padding: 18px;
+    background-color: #0A0A23;
+    border-top: 1px solid #FACC15;
 }
 
 p {
     text-align: center;
-    font-size: 24px;
-    color: white;
-    font-weight: bold;
+    font-size: 1rem;
+    color: #F9FAFB;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
 }

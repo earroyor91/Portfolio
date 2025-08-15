@@ -1,5 +1,5 @@
 .projects-section {
-    background-color: #D0D5CE;
+    background-color: #0A0A23;
     padding: 30px 80px 80px 80px;
     text-align: center;
 }
@@ -16,34 +16,70 @@
     font-size: 2.5rem;
     margin-bottom: 40px;
     color: white;
+    text-decoration: none;
+}
+
+.projects-title::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #FACC15;
+    margin: 0 auto 20px auto;
+    border-radius: 2px;
 }
 
 .project-card {
-    background: white;
+    background: #1F2937;
     border-radius: 8px;
     padding: 1rem;
     width: 300px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
 .project-card h2 {
     font-size: 1.2rem;
+    color: #F9FAFB;
+    position: relative;
+    padding-bottom: 4px;
 }
 
-.project-card a {
+.project-card h2::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #FACC15;
+    margin: 8px auto 0 auto;
+    border-radius: 1px;
+}
+
+a {
     display: inline-block;
     margin-top: 0.5rem;
-    color: #0077cc;
-    text-decoration: none; }
+    color: #93C5FD;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project-card a:hover {
+    color: #60A5FA;
+}
 
 .project-description {
     font-size: 18px;
-    color: #555;
+    color: #E5E7EB;
     margin-top: 0.5rem;
 }
 
 .project-tools {
     font-size: 18px;
-    color: #333;
+    color: #E5E7EB;
     margin-bottom: 0.5rem;
 }

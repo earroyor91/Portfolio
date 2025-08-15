@@ -10,15 +10,12 @@ function Projects() {
             <h2 className="projects-title">Projects</h2>
             <div className="projects-container">
                 {projects.map((project, index) => (
-                    <div className="project-card" key={index}>
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-card" key={index}>
                         <h2>{project.title}</h2>
                         <p className="project-description">{project.description}</p>
                         <br/>
                         <p className="project-tools"><strong>Tools Used:</strong> {project.toolsUsed}</p>
-                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
-                            View Project
-                        </a>
-                    </div>
+                    </a>
             ))}
             </div>
         </section>

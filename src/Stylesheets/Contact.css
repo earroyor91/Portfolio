@@ -1,5 +1,5 @@
 .contact-section {
-  background-color: #F5F5DC;
+  background-color: #0A0A23;
   padding: 30px 80px 80px 80px;
   text-align: center;
 }
@@ -9,10 +9,20 @@
   margin-bottom: 20px;
 }
 
+.contact-title::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #FACC15;
+    margin: 0 auto 20px auto;
+    border-radius: 2px;
+}
+
 .contact-form {
   max-width: 600px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #1F2937;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -23,7 +33,9 @@
   width: 100%;
   padding: 12px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #374151;
+  background-color: #111827;
+  color: #F9FAFB;
   border-radius: 4px;
   font-size: 1rem;
 }
@@ -33,13 +45,15 @@
   margin-bottom: 5px;
   font-weight: bold;
   font-size: 24px;
+  color: #F9FAFB;
+  font-family: 'Inter', sans-serif;
 }
 
 button {
   border: none;
   border-radius: 8px;
-  background-color: #4f8ef7;
-  color: white;
+  background-color: #60A5FA;
+  color: #0A0A23;
   font-size: 18px;
   margin-top: 20px;
   padding: 12px 24px;
@@ -51,5 +65,5 @@ button {
 }
 
 button:hover {
-  background-color: #3c75d3;
+  background-color: #93C5FD;
 }
